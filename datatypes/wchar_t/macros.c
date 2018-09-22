@@ -5,6 +5,11 @@
 //
 #include <wchar.h>
 
+//
+//  See
+//    https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/CPP/preprocessor/macros/stringify
+//  for QuoteIdent and QuoteMacro
+//
 #define QuoteIdent(ident) #ident
 #define QuoteMacro(macro) QuoteIdent(macro)
 
