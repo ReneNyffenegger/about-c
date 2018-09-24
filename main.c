@@ -20,4 +20,5 @@ int main(int argc, char ** argv, char **envp) {
         printf("%s\n", envv);
     }
 
+    return 0;
 }
